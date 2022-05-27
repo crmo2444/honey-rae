@@ -34,7 +34,6 @@ export const EmployeeViews = () => {
                 <Route path="customers" element={ <CustomerList /> } />
                 <Route path="customers/:customerId" element={ <CustomerDetails /> } />
                 <Route path="profile" element={ <Profile /> } />
-                <Route path="tickets/:ticketId" element={ <TicketDetails /> } />
             </Route>
         </Routes>
     )
