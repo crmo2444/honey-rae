@@ -23,5 +23,6 @@ export const TicketDetails = () => {
                     <div>Description: {ticket.description}</div>
                     <div>Emergency: {ticket.emergency ? "Yes" : "No"}</div>
                     <div>Submitted By: {ticket?.user?.fullName}</div>
+                    {}
         </section>
 }
